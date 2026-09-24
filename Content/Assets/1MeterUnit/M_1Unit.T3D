@@ -1,0 +1,185 @@
+Begin Object Class=/Script/Engine.Material Name="M_1Unit" ExportPath="/Script/Engine.Material'/Game/2dPlatformer/Materials/M_1Unit.M_1Unit'"
+   Begin Object Class=/Script/Engine.MaterialEditorOnlyData Name="M_1UnitEditorOnlyData" ExportPath="/Script/Engine.MaterialEditorOnlyData'/Game/2dPlatformer/Materials/M_1Unit.M_1Unit:M_1UnitEditorOnlyData'"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_1" ExportPath="/Script/Engine.MaterialExpressionComment'/Game/2dPlatformer/Materials/M_1Unit.M_1Unit:MaterialExpressionComment_1'"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_2" ExportPath="/Script/Engine.MaterialExpressionComment'/Game/2dPlatformer/Materials/M_1Unit.M_1Unit:MaterialExpressionComment_2'"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_3" ExportPath="/Script/Engine.MaterialExpressionComment'/Game/2dPlatformer/Materials/M_1Unit.M_1Unit:MaterialExpressionComment_3'"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_4" ExportPath="/Script/Engine.MaterialExpressionComment'/Game/2dPlatformer/Materials/M_1Unit.M_1Unit:MaterialExpressionComment_4'"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_5" ExportPath="/Script/Engine.MaterialExpressionComment'/Game/2dPlatformer/Materials/M_1Unit.M_1Unit:MaterialExpressionComment_5'"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_0" ExportPath="/Script/Engine.MaterialExpressionConstant3Vector'/Game/2dPlatformer/Materials/M_1Unit.M_1Unit:MaterialExpressionConstant3Vector_0'"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_0" ExportPath="/Script/Engine.MaterialExpressionMaterialFunctionCall'/Game/2dPlatformer/Materials/M_1Unit.M_1Unit:MaterialExpressionMaterialFunctionCall_0'"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_2" ExportPath="/Script/Engine.MaterialExpressionMultiply'/Game/2dPlatformer/Materials/M_1Unit.M_1Unit:MaterialExpressionMultiply_2'"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionReroute Name="MaterialExpressionReroute_0" ExportPath="/Script/Engine.MaterialExpressionReroute'/Game/2dPlatformer/Materials/M_1Unit.M_1Unit:MaterialExpressionReroute_0'"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionReroute Name="MaterialExpressionReroute_1" ExportPath="/Script/Engine.MaterialExpressionReroute'/Game/2dPlatformer/Materials/M_1Unit.M_1Unit:MaterialExpressionReroute_1'"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionReroute Name="MaterialExpressionReroute_2" ExportPath="/Script/Engine.MaterialExpressionReroute'/Game/2dPlatformer/Materials/M_1Unit.M_1Unit:MaterialExpressionReroute_2'"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionReroute Name="MaterialExpressionReroute_3" ExportPath="/Script/Engine.MaterialExpressionReroute'/Game/2dPlatformer/Materials/M_1Unit.M_1Unit:MaterialExpressionReroute_3'"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureObjectParameter Name="MaterialExpressionTextureObjectParameter_0" ExportPath="/Script/Engine.MaterialExpressionTextureObjectParameter'/Game/2dPlatformer/Materials/M_1Unit.M_1Unit:MaterialExpressionTextureObjectParameter_0'"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_1" ExportPath="/Script/Engine.MaterialExpressionVectorParameter'/Game/2dPlatformer/Materials/M_1Unit.M_1Unit:MaterialExpressionVectorParameter_1'"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionWorldPosition Name="MaterialExpressionWorldPosition_0" ExportPath="/Script/Engine.MaterialExpressionWorldPosition'/Game/2dPlatformer/Materials/M_1Unit.M_1Unit:MaterialExpressionWorldPosition_0'"
+   End Object
+   Begin Object Name="M_1UnitEditorOnlyData" ExportPath="/Script/Engine.MaterialEditorOnlyData'/Game/2dPlatformer/Materials/M_1Unit.M_1Unit:M_1UnitEditorOnlyData'"
+      BaseColor=(Expression="/Script/Engine.MaterialExpressionMaterialFunctionCall'M_1Unit:MaterialExpressionMaterialFunctionCall_0'",OutputIndex=2)
+      ExpressionCollection=(Expressions=("/Script/Engine.MaterialExpressionMaterialFunctionCall'M_1Unit:MaterialExpressionMaterialFunctionCall_0'","/Script/Engine.MaterialExpressionVectorParameter'M_1Unit:MaterialExpressionVectorParameter_1'","/Script/Engine.MaterialExpressionWorldPosition'M_1Unit:MaterialExpressionWorldPosition_0'","/Script/Engine.MaterialExpressionTextureObjectParameter'M_1Unit:MaterialExpressionTextureObjectParameter_0'","/Script/Engine.MaterialExpressionConstant3Vector'M_1Unit:MaterialExpressionConstant3Vector_0'","/Script/Engine.MaterialExpressionMultiply'M_1Unit:MaterialExpressionMultiply_2'","/Script/Engine.MaterialExpressionReroute'M_1Unit:MaterialExpressionReroute_0'","/Script/Engine.MaterialExpressionReroute'M_1Unit:MaterialExpressionReroute_1'","/Script/Engine.MaterialExpressionReroute'M_1Unit:MaterialExpressionReroute_2'","/Script/Engine.MaterialExpressionReroute'M_1Unit:MaterialExpressionReroute_3'"),EditorComments=("/Script/Engine.MaterialExpressionComment'M_1Unit:MaterialExpressionComment_1'","/Script/Engine.MaterialExpressionComment'M_1Unit:MaterialExpressionComment_2'","/Script/Engine.MaterialExpressionComment'M_1Unit:MaterialExpressionComment_3'","/Script/Engine.MaterialExpressionComment'M_1Unit:MaterialExpressionComment_4'","/Script/Engine.MaterialExpressionComment'M_1Unit:MaterialExpressionComment_5'"))
+      ParameterGroupData(0)=(GroupName="None")
+      ParameterGroupData(1)=(GroupName="None")
+   End Object
+   Begin Object Name="MaterialExpressionComment_1" ExportPath="/Script/Engine.MaterialExpressionComment'/Game/2dPlatformer/Materials/M_1Unit.M_1Unit:MaterialExpressionComment_1'"
+      SizeX=416
+      SizeY=336
+      Text="This is the chosen texture that will be displayed"
+      CommentColor=(R=0.000000,G=0.525490,B=0.380392,A=1.000000)
+      MaterialExpressionEditorX=-1440
+      MaterialExpressionEditorY=-16
+      MaterialExpressionGuid=B979482846354E7FCAEC3D84C361AFBC
+      Material="/Script/Engine.Material'M_1Unit'"
+   End Object
+   Begin Object Name="MaterialExpressionComment_2" ExportPath="/Script/Engine.MaterialExpressionComment'/Game/2dPlatformer/Materials/M_1Unit.M_1Unit:MaterialExpressionComment_2'"
+      SizeX=416
+      SizeY=336
+      Text="This node determines the size of the projected texture"
+      CommentColor=(R=0.000000,G=0.525490,B=0.380392,A=1.000000)
+      MaterialExpressionEditorX=-1440
+      MaterialExpressionEditorY=352
+      MaterialExpressionGuid=B979482846354E7FCAEC3D84C361AFBC
+      Material="/Script/Engine.Material'M_1Unit'"
+   End Object
+   Begin Object Name="MaterialExpressionComment_3" ExportPath="/Script/Engine.MaterialExpressionComment'/Game/2dPlatformer/Materials/M_1Unit.M_1Unit:MaterialExpressionComment_3'"
+      SizeX=640
+      SizeY=512
+      Text="This node determines the world location of the projected texture. It is multiplied by minus 1 to fix a mirroring issue."
+      CommentColor=(R=0.000000,G=0.525490,B=0.380392,A=1.000000)
+      MaterialExpressionEditorX=-1440
+      MaterialExpressionEditorY=720
+      MaterialExpressionGuid=B979482846354E7FCAEC3D84C361AFBC
+      Material="/Script/Engine.Material'M_1Unit'"
+   End Object
+   Begin Object Name="MaterialExpressionComment_4" ExportPath="/Script/Engine.MaterialExpressionComment'/Game/2dPlatformer/Materials/M_1Unit.M_1Unit:MaterialExpressionComment_4'"
+      SizeX=560
+      SizeY=336
+      Text="Set te texture properties"
+      CommentColor=(R=0.000000,G=0.525490,B=0.380392,A=1.000000)
+      MaterialExpressionEditorX=-816
+      MaterialExpressionEditorY=-16
+      MaterialExpressionGuid=B979482846354E7FCAEC3D84C361AFBC
+      Material="/Script/Engine.Material'M_1Unit'"
+   End Object
+   Begin Object Name="MaterialExpressionComment_5" ExportPath="/Script/Engine.MaterialExpressionComment'/Game/2dPlatformer/Materials/M_1Unit.M_1Unit:MaterialExpressionComment_5'"
+      SizeX=368
+      SizeY=800
+      Text="Display it as the base color of the material"
+      CommentColor=(R=0.000000,G=0.525490,B=0.380392,A=1.000000)
+      MaterialExpressionEditorX=-208
+      MaterialExpressionEditorY=-16
+      MaterialExpressionGuid=B979482846354E7FCAEC3D84C361AFBC
+      Material="/Script/Engine.Material'M_1Unit'"
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_0" ExportPath="/Script/Engine.MaterialExpressionConstant3Vector'/Game/2dPlatformer/Materials/M_1Unit.M_1Unit:MaterialExpressionConstant3Vector_0'"
+      Constant=(R=-1.000000,G=-1.000000,B=1.000000,A=0.000000)
+      MaterialExpressionEditorX=-1376
+      MaterialExpressionEditorY=1008
+      MaterialExpressionGuid=9C93CEC24551AD112A02C3B2007C31CC
+      Material="/Script/Engine.Material'M_1Unit'"
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_0" ExportPath="/Script/Engine.MaterialExpressionMaterialFunctionCall'/Game/2dPlatformer/Materials/M_1Unit.M_1Unit:MaterialExpressionMaterialFunctionCall_0'"
+      MaterialFunction="/Script/Engine.MaterialFunction'/Engine/Functions/Engine_MaterialFunctions01/Texturing/WorldAlignedTexture.WorldAlignedTexture'"
+      FunctionInputs(0)=(ExpressionInputId=4EE64DD049AC714D089AD6AAB1BFA0C8,Input=(Expression="/Script/Engine.MaterialExpressionTextureObjectParameter'M_1Unit:MaterialExpressionTextureObjectParameter_0'",InputName="TextureObject"))
+      FunctionInputs(1)=(ExpressionInputId=2C710AD6489D7B7213E379AD4846EBBB,Input=(Expression="/Script/Engine.MaterialExpressionReroute'M_1Unit:MaterialExpressionReroute_1'",InputName="TextureSize"))
+      FunctionInputs(2)=(ExpressionInputId=F9CEA7574004FF6704D0C5B341DB8F50,Input=(Expression="/Script/Engine.MaterialExpressionReroute'M_1Unit:MaterialExpressionReroute_2'",InputName="WorldPosition"))
+      FunctionInputs(3)=(ExpressionInputId=041C58BB4D6D46D766DE40A41673ECD6,Input=(OutputIndex=-1,InputName="Export Float 4"))
+      FunctionInputs(4)=(ExpressionInputId=ABB498D643904DF08C37A0B911766DDB,Input=(OutputIndex=-1,InputName="World Space Normal"))
+      FunctionInputs(5)=(ExpressionInputId=D2134BC94ED09D2F619E9DBED3E550CD,Input=(OutputIndex=-1,InputName="ProjectionTransitionContrast"))
+      FunctionOutputs(0)=(ExpressionOutputId=C73948F34CBC303FB1D8F3A99E6B0324,Output=(OutputName="XY Texture"))
+      FunctionOutputs(1)=(ExpressionOutputId=DC35E13448C6765AA54072B08874BFD4,Output=(OutputName="Z Texture"))
+      FunctionOutputs(2)=(ExpressionOutputId=1B6AC1E04D115FD30866E4A895261285,Output=(OutputName="XYZ Texture"))
+      MaterialExpressionEditorX=-704
+      MaterialExpressionEditorY=96
+      MaterialExpressionGuid=F4CA0B5247C2EBD6DE5965AAB38B57E2
+      Material="/Script/Engine.Material'M_1Unit'"
+      Outputs(0)=(OutputName="XY Texture")
+      Outputs(1)=(OutputName="Z Texture")
+      Outputs(2)=(OutputName="XYZ Texture")
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_2" ExportPath="/Script/Engine.MaterialExpressionMultiply'/Game/2dPlatformer/Materials/M_1Unit.M_1Unit:MaterialExpressionMultiply_2'"
+      A=(Expression="/Script/Engine.MaterialExpressionWorldPosition'M_1Unit:MaterialExpressionWorldPosition_0'",Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression="/Script/Engine.MaterialExpressionConstant3Vector'M_1Unit:MaterialExpressionConstant3Vector_0'",Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      MaterialExpressionEditorX=-1072
+      MaterialExpressionEditorY=848
+      MaterialExpressionGuid=C78FE18643527E9ABBD288A39793CC2E
+      Material="/Script/Engine.Material'M_1Unit'"
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionReroute_0" ExportPath="/Script/Engine.MaterialExpressionReroute'/Game/2dPlatformer/Materials/M_1Unit.M_1Unit:MaterialExpressionReroute_0'"
+      Input=(Expression="/Script/Engine.MaterialExpressionVectorParameter'M_1Unit:MaterialExpressionVectorParameter_1'",Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      MaterialExpressionEditorX=-992
+      MaterialExpressionEditorY=480
+      MaterialExpressionGuid=0FC426234B71B6BF2D468CA2F136D887
+      Material="/Script/Engine.Material'M_1Unit'"
+   End Object
+   Begin Object Name="MaterialExpressionReroute_1" ExportPath="/Script/Engine.MaterialExpressionReroute'/Game/2dPlatformer/Materials/M_1Unit.M_1Unit:MaterialExpressionReroute_1'"
+      Input=(Expression="/Script/Engine.MaterialExpressionReroute'M_1Unit:MaterialExpressionReroute_0'")
+      MaterialExpressionEditorX=-800
+      MaterialExpressionEditorY=160
+      MaterialExpressionGuid=1C95155E4C2F5426521E36AFB2708C24
+      Material="/Script/Engine.Material'M_1Unit'"
+   End Object
+   Begin Object Name="MaterialExpressionReroute_2" ExportPath="/Script/Engine.MaterialExpressionReroute'/Game/2dPlatformer/Materials/M_1Unit.M_1Unit:MaterialExpressionReroute_2'"
+      Input=(Expression="/Script/Engine.MaterialExpressionReroute'M_1Unit:MaterialExpressionReroute_3'")
+      MaterialExpressionEditorX=-768
+      MaterialExpressionEditorY=192
+      MaterialExpressionGuid=BAB1ED494589F8C9F1C7529AD022796F
+      Material="/Script/Engine.Material'M_1Unit'"
+   End Object
+   Begin Object Name="MaterialExpressionReroute_3" ExportPath="/Script/Engine.MaterialExpressionReroute'/Game/2dPlatformer/Materials/M_1Unit.M_1Unit:MaterialExpressionReroute_3'"
+      Input=(Expression="/Script/Engine.MaterialExpressionMultiply'M_1Unit:MaterialExpressionMultiply_2'")
+      MaterialExpressionEditorX=-896
+      MaterialExpressionEditorY=880
+      MaterialExpressionGuid=89A77E0E4B6AEE3E914A8998CD76D807
+      Material="/Script/Engine.Material'M_1Unit'"
+   End Object
+   Begin Object Name="MaterialExpressionTextureObjectParameter_0" ExportPath="/Script/Engine.MaterialExpressionTextureObjectParameter'/Game/2dPlatformer/Materials/M_1Unit.M_1Unit:MaterialExpressionTextureObjectParameter_0'"
+      ParameterName="Texture"
+      ExpressionGUID=3356072D402CA3D35B34CA8C23FEF264
+      Texture="/Script/Engine.Texture2D'/Game/2dPlatformer/Textures/T_1Unit.T_1Unit'"
+      MaterialExpressionEditorX=-1408
+      MaterialExpressionEditorY=80
+      MaterialExpressionGuid=477658F949D8337B2D4367974CF03557
+      Material="/Script/Engine.Material'M_1Unit'"
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_1" ExportPath="/Script/Engine.MaterialExpressionVectorParameter'/Game/2dPlatformer/Materials/M_1Unit.M_1Unit:MaterialExpressionVectorParameter_1'"
+      DefaultValue=(R=100.000000,G=100.000000,B=100.000000,A=1.000000)
+      ParameterName="TextureSize"
+      ExpressionGUID=340899BD476F7F296A966681547DDF04
+      MaterialExpressionEditorX=-1376
+      MaterialExpressionEditorY=432
+      MaterialExpressionGuid=F911339445DB80F095E205952EC922DB
+      Material="/Script/Engine.Material'M_1Unit'"
+   End Object
+   Begin Object Name="MaterialExpressionWorldPosition_0" ExportPath="/Script/Engine.MaterialExpressionWorldPosition'/Game/2dPlatformer/Materials/M_1Unit.M_1Unit:MaterialExpressionWorldPosition_0'"
+      MaterialExpressionEditorX=-1376
+      MaterialExpressionEditorY=832
+      MaterialExpressionGuid=235C57D8416A0600EE4963B106199696
+      Material="/Script/Engine.Material'M_1Unit'"
+   End Object
+   EditorX=-96
+   EditorY=160
+   bCanMaskedBeAssumedOpaque=True
+   StateId=A2C840EA4B40D81FD6349180302C5EA9
+   ReferencedTextureGuids(0)=5995157848ECDFA4A07F7FA85F93080C
+   EditorOnlyData="/Script/Engine.MaterialEditorOnlyData'M_1UnitEditorOnlyData'"
+   ParameterOverviewExpansion=(("-12Global", True))
+   LightingGuid=F3D233AE435DCD037DB38C98BCF773FF
+End Object
