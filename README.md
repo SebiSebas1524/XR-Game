@@ -1,4 +1,3 @@
-XR-Game
+# XR-Game
 
-# SebiSebas was here!dsadsada
-
+This project is a game on the XR stage of BUAS.
