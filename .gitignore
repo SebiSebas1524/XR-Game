@@ -24,6 +24,7 @@
 *.la
 *.a
 *.lib
+!Plugins/LiveLinkViconDataStream/Source/ThirdParty/*/.lib
 
 # Executables
 *.exe
