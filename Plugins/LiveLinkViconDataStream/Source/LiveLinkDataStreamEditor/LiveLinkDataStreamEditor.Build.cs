@@ -8,6 +8,7 @@ public class LiveLinkDataStreamEditor : ModuleRules
   public LiveLinkDataStreamEditor(ReadOnlyTargetRules Target) : base(Target)
   {
     PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
+    bUseUnity = false;
     PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "LiveLinkDataStream" });
     PrivateDependencyModuleNames.AddRange(
       new string[]
